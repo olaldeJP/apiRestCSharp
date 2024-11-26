@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gHzYMuiwwkMCYlh9TNvg5gG5DTsC7mWXYRBWBBpwcZc=",
+  "Source": "ApiRestC",
+  "BasePath": "_content/ApiRestC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
