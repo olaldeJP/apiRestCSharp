@@ -19,7 +19,7 @@ public class MonoController: ControllerBase
         if(mono == null){
             return NotFound("Mono No Encontrado");
       }
-      return Ok(mono);
+      return Ok(mono);  
     }
     [HttpPost]
     public ActionResult<Mono> PostMono(MonoInsert monoInsert){
@@ -34,5 +34,5 @@ public class MonoController: ControllerBase
     MonoDataStore.Current.Monos.Add(monoNuevo);
     return CreatedAtAction(nameof(GetMono),new {monoId = monoNuevo.Id},monoNuevo);
     }
-    
+
 }
